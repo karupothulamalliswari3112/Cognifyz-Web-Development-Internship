@@ -1,0 +1,13 @@
+body{
+    background:#f5f5f5;
+    font-family:Arial, sans-serif;
+}
+
+h1{
+    color:#1e3a8a;
+}
+
+.card img{
+    height:220px;
+    object-fit:cover;
+}
