@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cognifyz Web Development Internship | Malliswari</title>
+<meta name="description" content="Four front-end tasks completed during my web development internship at Cognifyz IT Solutions, with live demos.">
+<style>
+:root{--bg:#f4f6fb;--ink:#0f1b33;--muted:#4d5b78;--card:#fff;--line:#d5ddee;--blue:#2347ff;--sun:#ffb703}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1220;--ink:#eef2fb;--muted:#a3b0cc;--card:#14203a;--line:#25345a;--blue:#7d95ff}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:400 1rem/1.7 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+.wrap{max-width:1000px;margin:auto;padding:0 22px}
+header{padding:64px 0 36px}
+.badge{display:inline-block;background:var(--card);border:1px solid var(--line);padding:6px 14px;border-radius:99px;font-size:.85rem;font-weight:600}
+h1{font-size:clamp(2rem,6vw,3.4rem);line-height:1.1;letter-spacing:-.03em;margin:18px 0 12px}
+header p{color:var(--muted);max-width:60ch}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;padding-bottom:56px}
+.card{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--blue);border-radius:16px;padding:26px;display:flex;flex-direction:column;gap:12px;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(15,27,51,.12)}
+.level{font-size:.82rem;font-weight:700;color:var(--blue)}
+h2{font-size:1.35rem;line-height:1.2}
+.card p{color:var(--muted);font-size:.95rem}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{border:1px solid var(--line);padding:3px 11px;border-radius:99px;font-size:.78rem}
+.links{display:flex;gap:12px;margin-top:auto;padding-top:6px;flex-wrap:wrap}
+.btn{padding:10px 18px;border-radius:9px;font-weight:600;font-size:.9rem;text-decoration:none;border:2px solid var(--blue);background:var(--blue);color:#fff}
+.btn.alt{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn:hover{filter:brightness(1.1)}
+.btn:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+footer{border-top:1px solid var(--line);padding:22px 0;font-size:.88rem;color:var(--muted)}
+footer a{color:var(--blue)}
+@media(max-width:700px){.grid{grid-template-columns:1fr}header{padding-top:44px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="badge">Cognifyz IT Solutions · Web Development Internship</span>
+  <h1>Internship Tasks by Malliswari</h1>
+  <p>Four front-end tasks across two levels, built with HTML, CSS, JavaScript and Bootstrap. Open any live demo below, or view its source code on GitHub.</p>
+</div></header>
+
+<main class="wrap"><div class="grid">
+  <article class="card">
+    <span class="level">Level 1 · Task 1</span>
+    <h2>Basic Web Page</h2>
+    <p>A web page with a navigation bar, heading, introduction, image and a simple form, styled with CSS.</p>
+    <div class="tags"><span>HTML</span><span>CSS</span></div>
+    <div class="links"><a class="btn" href="level1-task1/">Live demo</a><a class="btn alt" href="https://github.com/karupothulamalliswari3112/Cognifyz-Web-Development-Internship/tree/main/level1-task1">Source code</a></div>
+  </article>
+  <article class="card">
+    <span class="level">Level 1 · Task 2</span>
+    <h2>JavaScript Interactivity</h2>
+    <p>A random background colour changer, a time-based greeting, and a calculator that adds two numbers.</p>
+    <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+    <div class="links"><a class="btn" href="level1-task2/">Live demo</a><a class="btn alt" href="https://github.com/karupothulamalliswari3112/Cognifyz-Web-Development-Internship/tree/main/level1-task2">Source code</a></div>
+  </article>
+  <article class="card">
+    <span class="level">Level 2 · Task 1</span>
+    <h2>Bootstrap Responsive Cards</h2>
+    <p>A three-card layout built with the Bootstrap 5 grid that sits side by side on desktop and stacks on mobile.</p>
+    <div class="tags"><span>Bootstrap 5</span><span>HTML</span><span>CSS</span></div>
+    <div class="links"><a class="btn" href="level2-task1/">Live demo</a><a class="btn alt" href="https://github.com/karupothulamalliswari3112/Cognifyz-Web-Development-Internship/tree/main/level2-task1">Source code</a></div>
+  </article>
+  <article class="card">
+    <span class="level">Level 2 · Task 2</span>
+    <h2>Responsive Website with Hamburger Menu</h2>
+    <p>A Flexbox navigation bar that turns into a hamburger menu on small screens using media queries.</p>
+    <div class="tags"><span>HTML</span><span>CSS</span><span>Flexbox</span><span>Media queries</span></div>
+    <div class="links"><a class="btn" href="level2-task2/">Live demo</a><a class="btn alt" href="https://github.com/karupothulamalliswari3112/Cognifyz-Web-Development-Internship/tree/main/level2-task2">Source code</a></div>
+  </article>
+</div></main>
+
+<footer><div class="wrap">Built by Karupothula Malliswari · <a href="https://github.com/karupothulamalliswari3112">GitHub</a></div></footer>
+</body>
+</html>
